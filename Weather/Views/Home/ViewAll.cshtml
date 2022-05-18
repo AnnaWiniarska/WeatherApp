@@ -1,0 +1,28 @@
+﻿@model Weather.Models.City
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Weather</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Temp)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Humidity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Wind)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Weather)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
